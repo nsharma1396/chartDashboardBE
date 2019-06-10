@@ -16,7 +16,6 @@ function computeStub() {
     if (index === 0) {
       prevDate = new Date();
     }
-    console.log(prevDate);
     const label = new Date(prevDate.getTime() + 100000);
     prevDate = label;
     return {
